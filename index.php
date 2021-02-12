@@ -48,9 +48,9 @@
 							Puzzles
 						</h5>
 						<div class="card-body">
-							<p class="card-text">
-								<img src="partials/img/niña.jpg" alt="">
-							</p>
+						<a href="puzzles/puzzles.php">
+								<img src="partials/img/puzzle.jpg" alt="">
+							</a>
 						</div>
 						<div class="card-footer">
 							Card footer
@@ -60,12 +60,12 @@
 				<div class="col-sm-4">
 					<div class="card">
 						<h5 class="card-header">
-							Poemas 
+							Poesías
 						</h5>
 						<div class="card-body">
-							<p class="card-text">
-							<img src="partials/img/puzzle.jpg" alt="">
-							</p>
+						   <a href="">
+								<img src="partials/img/poesia.jpg" alt="">
+							</a>
 						</div>
 						<div class="card-footer">
 							Card footer
@@ -78,9 +78,9 @@
 							Adivinanzas
 						</h5>
 						<div class="card-body">
-							<p class="card-text">
-              <img src="partials/img/adivinanza.png" alt="">
-							</p>
+						    <a href="">
+								<img src="partials/img/adivinanza.png" alt="">
+							</a>
 						</div>
 						<div class="card-footer">
 							Card footer
@@ -101,9 +101,9 @@
 							Lengua
 						</h5>
 						<div class="card-body">
-							<p class="card-text">
-								<img src="partials/img/construccion.jpg" alt="">
-							</p>
+							<a href="">
+								<img src="partials/img/libros.png" alt="">
+							</a>
 						</div>
 						<div class="card-footer">
 							Card footer
@@ -116,9 +116,9 @@
 							Ciencias Naturales
 						</h5>
 						<div class="card-body">
-							<p class="card-text">
-							<img src="partials/img/construccion.jpg" alt="">
-							</p>
+						   <a href="">
+							<img src="partials/img/naturales.jpg" alt="">
+							</a>
 						</div>
 						<div class="card-footer">
 							Card footer
@@ -131,9 +131,9 @@
 							Matemáticas
 						</h5>
 						<div class="card-body">
-							<p class="card-text">
-              <img src="partials/img/construccion.jpg" alt="">
-							</p>
+						    <a href="">
+								<img src="partials/img/matematicas.png" alt="">
+							</a>
 						</div>
 						<div class="card-footer">
 							Card footer
@@ -143,6 +143,7 @@
 			</div>
 		</div>
       </div>
+	  <!--container-fluid-->
     </div>
     <!-- /#page-content-wrapper -->
 
