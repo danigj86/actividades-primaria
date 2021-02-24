@@ -131,7 +131,7 @@
 							Matemáticas
 						</h5>
 						<div class="card-body">
-						    <a href="">
+						    <a href="matematicas/matematicas.php">
 								<img src="partials/img/matematicas.png" alt="">
 							</a>
 						</div>

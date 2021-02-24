@@ -1,7 +1,15 @@
+<?php
+  header("Cache-Control: no-cache, must-revalidate"); // HTTP/1.1
+  header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); // Fecha en el pasado
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+<meta http-equiv="Expires" content="0">
+  <meta http-equiv="Last-Modified" content="0">
+  <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+  <meta http-equiv="Pragma" content="no-cache">
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -34,18 +42,16 @@
 
  <div class="container-fluid">
         <h1 class="mt-4">Actividades Primaria, el portal educativo para aprender jugando</h1> <br><br>
-        <h4>Mantener a los niños centrados y atentos a la hora de hacer ejercicios que desarrollen sus capacidades
-         de atención o de resolución de problemas es difícil. Sobretodo si queremos que no se aburran,
-          pero gracias a los juegos de puzzles gratis para niños que ofrecemos en Actividades Primaria,
-           ahora puedes hacerlo online, de forma gratuita y desde cualquier dispositivo.</h4>
+        <h4>Nuestros amigos los animales han hecho varias fotografías en la selva para hacer un mural,
+           pero deben juntar todas sus partes para montarlo. ¿Puedes ayudarles a construir el mural?</h4>
            <br>
            <br>
            <br>
 <div class="row">
-		<div class="col-md-4">
+		<div class="col-md-auto caja">
         <img src="animales-img/animales.jpg" alt="">
 		</div>
-		<div class="col-md-4">
+		<div class="col-md-auto caja">
         <table>
         <tr>
             <td><img id="caja7" draggable="true" src="animales-img/siete.jpg" alt=""></td>
@@ -64,7 +70,7 @@
         </tr>
     </table>
 		</div>
-		<div class="col-md-4">
+		<div class="col-md-auto caja">
         <table>
         <tr>
             <td id="contenedor1"></td>
@@ -93,7 +99,7 @@
   </div>
   <!-- /#wrapper -->
 
-<script src="animales.js"></script>
+<script src="js/animales.js"></script>
   <!-- Bootstrap core JavaScript -->
   <script src="../vendor/jquery/jquery.min.js"></script>
   <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

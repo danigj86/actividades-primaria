@@ -151,3 +151,25 @@ function sweetalertFinish() {
         timer: 1500
     })
 }
+// CALLBACK
+//SE CREA FUNCION
+const getUser = (id, cd) =>{
+    const user = {
+        name :"Dani",
+        id: id
+    }
+    if (id == 2) {
+        cd('usuario no existe')
+    }else{ 
+            cd(null, user)}
+    }
+//SE LLAMA FUNCION
+    getUser(1, (err, user)=>{
+        if(err) return console.log(err)
+        console.log(`El nombre del user es  ${user.name}`)
+
+    })
+
+
+
+

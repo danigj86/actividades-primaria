@@ -40,38 +40,23 @@
            <br>
            <br>
            <br>
-   <div class="row">
-		<div class="col-md-4">
+   <div class="main-container">
+		
 			<div class="card">
 				<h5 class="card-header">
-					Los animales
+					Cálculo mental
 				</h5>
 				<div class="card-body">
-                  <a href="animales.php">
-				      <img src="../partials/img/animales.jpg" alt="">
+                  <a href="calculosuma.php">
+				      <img src="img/suma.png" alt="">
 				  </a>
 				</div>
 				<div class="card-footer">
-					Piezas: 9
+					<span>¡Hora de calcular sumas!</span>
 				</div>
 			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="card">
-				<h5 class="card-header">
-					Card title
-				</h5>
-				<div class="card-body">
-                <a href="animales.php">
-				      <img src="../partials/img/animales.jpg" alt="">
-				  </a>
-				</div>
-				<div class="card-footer">
-					Card footer
-				</div>
-			</div>
-		</div>
-		<div class="col-md-4">
+		
+		
 			<div class="card">
 				<h5 class="card-header">
 					Card title
@@ -85,7 +70,21 @@
 					Card footer
 				</div>
 			</div>
-		</div>
+		
+			<div class="card">
+				<h5 class="card-header">
+					Card title
+				</h5>
+				<div class="card-body">
+                <a href="animales.php">
+				      <img src="../partials/img/animales.jpg" alt="">
+				  </a>
+				</div>
+				<div class="card-footer">
+					Card footer
+				</div>
+			</div>
+		
 	</div>
     <!--row-->
       </div>

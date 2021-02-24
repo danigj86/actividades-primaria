@@ -1,0 +1,27 @@
+.container-tabla{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+table {
+    text-align: center;
+}
+
+input[type=text] {
+    width: 50%;
+}
+
+.ok {
+    background-color: rgb(114, 209, 20);
+    font-weight: bold;
+}
+
+.fail {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.resultados {
+    width: 50%;
+}

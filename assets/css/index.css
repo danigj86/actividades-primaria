@@ -51,12 +51,16 @@
     margin-left: -15rem;
   }
 }
-
+.main-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 .card{
   border: 1px solid rgb(248, 230, 72);
   border-radius: 5px;
   text-align: center;
-  width: 80%;
+  width: 300px;
   height: 300px;
   margin: 5px auto;
   transition: transform 1s;
@@ -75,12 +79,16 @@
   border-top: none;
 }
 .card img{
-  width: 130px;
-  height: 200px;
+  width: 50%;
+  height: 100%;
 }
 
 h1{
   color: rgb(248, 230, 72);;
 }
-
+.continer-fluid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
