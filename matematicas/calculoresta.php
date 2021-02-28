@@ -15,6 +15,7 @@
 
   <!-- Custom styles for this template -->
   <link href="../assets/css/index.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/calculosuma.css">
 
 </head>
 
@@ -40,53 +41,19 @@
            <br>
            <br>
            <br>
-   <div class="main-container">
-		
-			<div class="card">
-				<h5 class="card-header">
-					Sumas
-				</h5>
-				<div class="card-body">
-                  <a href="calculosuma.php">
-				      <img src="img/suma.png" alt="">
-				  </a>
-				</div>
-				<div class="card-footer">
-					<span>Cálculo mental</span>
-				</div>
-			</div>
-		
-		
-			<div class="card">
-				<h5 class="card-header">
-					Restas
-				</h5>
-				<div class="card-body">
-                <a href="calculoresta.php">
-				      <img src="img/restas.jpg" alt="">
-				  </a>
-				</div>
-				<div class="card-footer">
-					Cálculo mental
-				</div>
-			</div>
-		
-			<div class="card">
-				<h5 class="card-header">
-					Card title
-				</h5>
-				<div class="card-body">
-                <a href="animales.php">
-				      <img src="../partials/img/animales.jpg" alt="">
-				  </a>
-				</div>
-				<div class="card-footer">
-					Card footer
-				</div>
-			</div>
-		
-	</div>
-    <!--row-->
+           <div class="container-botones">
+           <button id="empezar">Empieza a calcular</button>
+           <button id="corregir">Corregir</button>
+           <button id="reiniciar">Reiniciar</button>
+           </div>
+           
+           <br><br>
+           <div class="container-tabla">
+           <table>
+
+          </table>
+           </div>
+           <br><br>
       </div>
       <!--container-fluid-->
     </div>
@@ -94,11 +61,14 @@
 
   </div>
   <!-- /#wrapper -->
-
+   <!-- Sweet Alert -->
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+   <!-- Include a polyfill for ES6 Promises (optional) for IE11 -->
+   <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.js"></script>
   <!-- Bootstrap core JavaScript -->
   <script src="../vendor/jquery/jquery.min.js"></script>
   <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+<script src="js/calculoresta.js"></script>
   <!-- Menu Toggle Script -->
   <script>
     $("#menu-toggle").click(function(e) {

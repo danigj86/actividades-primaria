@@ -39,10 +39,8 @@
            <br>
            <h2>Actividades Primaria, material educativo gratuito y de calidad</h2>
            <br>
-  <div class="row">
-		<div class="col-md-12">
-			<div class="row">
-				<div class="col-sm-4">
+ 
+				
 					<div class="card">
 						<h5 class="card-header">
 							Puzzles
@@ -56,8 +54,8 @@
 							Card footer
 						</div>
 					</div>
-				</div>
-				<div class="col-sm-4">
+				
+				
 					<div class="card">
 						<h5 class="card-header">
 							Poesías
@@ -71,8 +69,8 @@
 							Card footer
 						</div>
 					</div>
-				</div>
-				<div class="col-sm-4">
+				
+				
 					<div class="card">
 						<h5 class="card-header">
 							Adivinanzas
@@ -85,17 +83,10 @@
 						<div class="card-footer">
 							Card footer
 						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-    
-	</div>  
+					</div>  
+	 
       <br>
-      <div class="row">
-		<div class="col-md-12">
-			<div class="row">
-				<div class="col-sm-4">
+      
 					<div class="card">
 						<h5 class="card-header">
 							Lengua
@@ -109,8 +100,7 @@
 							Card footer
 						</div>
 					</div>
-				</div>
-				<div class="col-sm-4">
+				
 					<div class="card">
 						<h5 class="card-header">
 							Ciencias Naturales
@@ -124,8 +114,7 @@
 							Card footer
 						</div>
 					</div>
-				</div>
-				<div class="col-sm-4">
+				
 					<div class="card">
 						<h5 class="card-header">
 							Matemáticas
@@ -140,9 +129,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-      </div>
+			</div>	
 	  <!--container-fluid-->
     </div>
     <!-- /#page-content-wrapper -->

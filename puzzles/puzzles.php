@@ -40,8 +40,8 @@
            <br>
            <br>
            <br>
-   <div class="row">
-		<div class="col-md-4">
+   
+		
 			<div class="card">
 				<h5 class="card-header">
 					Los animales
@@ -55,8 +55,7 @@
 					Piezas: 9
 				</div>
 			</div>
-		</div>
-		<div class="col-md-4">
+		
 			<div class="card">
 				<h5 class="card-header">
 					Card title
@@ -70,8 +69,7 @@
 					Card footer
 				</div>
 			</div>
-		</div>
-		<div class="col-md-4">
+		
 			<div class="card">
 				<h5 class="card-header">
 					Card title
@@ -85,10 +83,7 @@
 					Card footer
 				</div>
 			</div>
-		</div>
-	</div>
-    <!--row-->
-      </div>
+    </div>
       <!--container-fluid-->
     </div>
     <!-- /#page-content-wrapper -->

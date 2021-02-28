@@ -1,10 +1,12 @@
  //Array y variables
- const sumandos1 = []
- const sumandos2 = []
- const resultado = []
+ console.log("hola")
+ const sumandos1 = new Array (10)
+ const sumandos2 = new Array (10)
+ const resultado = new Array (10)
  var aciertos = 0;
  var cont = 0;
  var cont2 = 0;
+ var cont3 = 0;
  //Elementos del DOM
  const tabla = document.querySelector('table');
  const empezar = document.querySelector('#empezar');
@@ -13,24 +15,33 @@
  //Genera los sumandos
  const empezarCalc = (e) => {
      cont++;
-     for (let index = 0; index < 10; index++) {
 
-         let r1 = Math.floor(Math.random() * 10)
-         let r2 = Math.floor(Math.random() * 10)
+     while (cont3 < 10) {
+         
+        var r1 = Math.floor(Math.random() * 10)
+        var r2 = Math.floor(Math.random() * 10)
+        console.log(r1)
 
-         sumandos1[index] = r1;
-         sumandos2[index] = r2;
-         resultado[index] = r1 + r2;
-
-         tabla.innerHTML += `<tr>
-         <td>${sumandos1[index]} +</td>
-         <td>${sumandos2[index]} =</td>
-         <td><input class="resultados" type="number"></td>
-         </tr>`
+        if (r1>r2 & r2 != 0) {
+            sumandos1[cont3] = r1
+            sumandos2[cont3] = r2
+            resultado[cont3] = r1 - r2  
+            tabla.innerHTML += `<tr>
+            <td>${sumandos1[cont3]} - </td>
+            <td>${sumandos2[cont3]} =</td>
+            <td><input class="resultados" type="number"></td>
+            </tr>`
+                      
+            cont3++; 
+        }
+            
+          
      }
+
      if (cont == 1) {
-         empezar.disabled = true;
-     }
+        empezar.disabled = true;
+    }
+     
  }
  //Corrige las operaciones
  const corregirCalc = () => {
