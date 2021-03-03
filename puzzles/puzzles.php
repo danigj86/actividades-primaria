@@ -41,7 +41,7 @@
            <br>
            <br>
    
-		
+     <div class="main-container">
 			<div class="card">
 				<h5 class="card-header">
 					Los animales
@@ -62,7 +62,7 @@
 				</h5>
 				<div class="card-body">
                 <a href="animales.php">
-				      <img src="../partials/img/animales.jpg" alt="">
+				      <img src="../partials/img/construccion.jpg" alt="">
 				  </a>
 				</div>
 				<div class="card-footer">
@@ -76,13 +76,16 @@
 				</h5>
 				<div class="card-body">
                 <a href="animales.php">
-				      <img src="../partials/img/animales.jpg" alt="">
+				      <img src="../partials/img/construccion.jpg" alt="">
 				  </a>
 				</div>
 				<div class="card-footer">
 					Card footer
 				</div>
 			</div>
+      
+      </div>
+      <!--Main Container-->
     </div>
       <!--container-fluid-->
     </div>

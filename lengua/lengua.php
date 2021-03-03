@@ -33,10 +33,10 @@
 
  <div class="container-fluid">
         <h1 class="mt-4">Actividades Primaria, el portal educativo para aprender jugando</h1> <br><br>
-        <h4>Mantener a los más pequeños/as a la hora de hacer ejercicios que desarrollen sus capacidades
-         de atención o de resolución de problemas es difícil. Sobretodo si queremos que no se aburran,
-          pero gracias a los juegos de puzzles que ofrecemos en Actividades Primaria,
-           ahora puedes hacerlo online, de forma gratuita y desde cualquier dispositivo.</h4>
+        <h4>En los últimos años, Internet se ha convertido en una herramienta imprescindible.
+           Con las TIC’s cada vez más integradas en la educación, 
+           Actividades Primaria surge como una fuente de juegos y otros recursos didácticos 
+		   gratuitos de gran calidad para alumnos y alumnas de primer ciclo de Educación Primaria.</h4>
            <br>
            <br>
            <br>
@@ -44,44 +44,44 @@
 		
 			<div class="card">
 				<h5 class="card-header">
-					Sumas
+					Silabas
 				</h5>
 				<div class="card-body">
-                  <a href="calculosuma.php">
-				      <img src="img/suma.png" alt="">
+                  <a href="silabas.php">
+				      <img src="img/silabas.jfif" alt="">
 				  </a>
 				</div>
 				<div class="card-footer">
-					<span>Cálculo mental</span>
+					<span>Construye palabras</span>
 				</div>
 			</div>
 		
 		
 			<div class="card">
 				<h5 class="card-header">
-					Restas
+					Punto y mayúscula
 				</h5>
 				<div class="card-body">
                 <a href="calculoresta.php">
-				      <img src="img/restas.jpg" alt="">
+				      <img src="img/construccion.jpg" alt="">
 				  </a>
 				</div>
 				<div class="card-footer">
-					Cálculo mental
+					Escribe donde corresponda
 				</div>
 			</div>
 		
 			<div class="card">
 				<h5 class="card-header">
-					Multiplicación
+					Abecedario
 				</h5>
 				<div class="card-body">
                 <a href="animales.php">
-				      <img src="../partials/img/construccion.jpg" alt="">
+				      <img src="img/construccion.jpg" alt="">
 				  </a>
 				</div>
 				<div class="card-footer">
-					Cálculo mental
+					Aprende el abecedario
 				</div>
 			</div>
 		

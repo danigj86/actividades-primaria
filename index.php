@@ -32,14 +32,16 @@
    <?php include 'partials/nav.php'; ?>
 
  <div class="container-fluid">
-        <h1 class="mt-4">Actividades Primaria, el portal educativo para aprender jugando</h1> <br><br>
+        <h1 class="mt-4">Actividades Primaria, el portal educativo para aprender jugando</h1> 
+		<br><br>
         <h4>En los últimos años, Internet se ha convertido en una herramienta imprescindible.
            Con las TIC’s cada vez más integradas en la educación, 
-           Actividades Primaria surge como una fuente de juegos y otros recursos didácticos gratuitos de gran calidad para alumnos y alumnas de entre tres y doce años.</h4>
+           Actividades Primaria surge como una fuente de juegos y otros recursos didácticos 
+		   gratuitos de gran calidad para alumnos y alumnas de primer ciclo de Educación Primaria.</h4>
            <br>
            <h2>Actividades Primaria, material educativo gratuito y de calidad</h2>
            <br>
- 
+		   <div class="main-container">
 				
 					<div class="card">
 						<h5 class="card-header">
@@ -62,7 +64,7 @@
 						</h5>
 						<div class="card-body">
 						   <a href="">
-								<img src="partials/img/poesia.jpg" alt="">
+								<img src="partials/img/construccion.jpg" alt="">
 							</a>
 						</div>
 						<div class="card-footer">
@@ -77,22 +79,20 @@
 						</h5>
 						<div class="card-body">
 						    <a href="">
-								<img src="partials/img/adivinanza.png" alt="">
+								<img src="partials/img/construccion.jpg" alt="">
 							</a>
 						</div>
 						<div class="card-footer">
 							Card footer
 						</div>
 					</div>  
-	 
-      <br>
-      
-					<div class="card">
+	       <br>
+      				<div class="card">
 						<h5 class="card-header">
 							Lengua
 						</h5>
 						<div class="card-body">
-							<a href="">
+							<a href="lengua/lengua.php">
 								<img src="partials/img/libros.png" alt="">
 							</a>
 						</div>
@@ -107,7 +107,7 @@
 						</h5>
 						<div class="card-body">
 						   <a href="">
-							<img src="partials/img/naturales.jpg" alt="">
+							<img src="partials/img/construccion.jpg" alt="">
 							</a>
 						</div>
 						<div class="card-footer">
@@ -128,8 +128,38 @@
 							Card footer
 						</div>
 					</div>
-				</div>
-			</div>	
+
+					<div class="card">
+						<h5 class="card-header">
+							Ciencias Sociales
+						</h5>
+						<div class="card-body">
+						    <a href="matematicas/matematicas.php">
+								<img src="partials/img/construccion.jpg" alt="">
+							</a>
+						</div>
+						<div class="card-footer">
+							Card footer
+						</div>
+					</div>
+
+					<div class="card">
+						<h5 class="card-header">
+							Cuentos
+						</h5>
+						<div class="card-body">
+						    <a href="matematicas/matematicas.php">
+								<img src="partials/img/construccion.jpg" alt="">
+							</a>
+						</div>
+						<div class="card-footer">
+							Card footer
+						</div>
+					</div>
+
+			</div>
+			<!--Main container-->
+		</div>	
 	  <!--container-fluid-->
     </div>
     <!-- /#page-content-wrapper -->
